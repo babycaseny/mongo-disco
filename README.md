@@ -42,7 +42,7 @@ config = {
         "input_uri": "mongodb://localhost/test.in",
         "output_uri": "mongodb://localhost/test.out",
         "create_input_splits": True,
-        "split_key": {‘_id’:1},
+        "split_key": {'_id':1},
         "split_size”:1, #MB
 }
 ```
@@ -100,7 +100,7 @@ Configuration for MongoJob
 <tr><td>create_input_splits</td><td>True</td><td>if True, data will be splitted</td></tr>
 <tr><td>split_size</td><td>8</td><td>size for one split</td></tr>
 <tr><td>split_key</td><td>{“_id”:1}</td><td>field for performing splitting</td></tr>
-<tr><td>use_shards</td><td>False</td><td>if True, directly connect to shards to retrieve data</td></tr>
+<tr><td>use_shards</td><td>   False</td><td>if True, directly connect to shards to retrieve data</td></tr>
 <tr><td>use_chunks</td><td>True</td><td>if True, directly use chunks splitted by mongoDB as splits</td></tr>
 <tr><td>input_key</td><td>None</td><td>Unknown!!!</td></tr>
 <tr><td>slave_ok</td><td>False</td><td>same as slave_okay</td></tr>
